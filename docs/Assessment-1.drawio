@@ -1,0 +1,279 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Gc4Y2IKen7fL1BYAzvl_">
+    <mxGraphModel dx="1621" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div data-renderer=&quot;lm&quot;&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;&lt;/p&gt;&lt;h1 class=&quot;font-editorial font-bold first:mt-xs mb-2 mt-4 [.has-inline-images_&amp;amp;]:clear-end text-lg leading-[1.5em] lg:text-xl&quot; id=&quot;commit&quot;&gt;Commit&lt;/h1&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Code wordt gecommit naar een branch.&lt;br&gt;Voorbeeld: &lt;code&gt;feature/{ticket_number}&lt;/code&gt;.&lt;/p&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Zolang de feature nog in ontwikkeling is, kan er nieuwe code naar deze branch gepusht worden.&lt;/p&gt;&lt;hr class=&quot;bg-quiet h-px border-0&quot;&gt;&lt;h1 class=&quot;font-editorial font-bold first:mt-xs mb-2 mt-4 [.has-inline-images_&amp;amp;]:clear-end text-lg leading-[1.5em] lg:text-xl&quot; id=&quot;build--test&quot;&gt;Build / test&lt;/h1&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Wanneer er een PR wordt aangemaakt voor een branch (bijvoorbeeld een feature branch), wordt de code automatisch getest. Tijdens deze eerste testronde krijgt de developer feedback zodra een van de testen faalt. Deze testen worden opnieuw uitgevoerd bij iedere nieuwe commit op de branch gedurende de PR.&lt;/p&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Voorbeelden van automatische testen zijn:&lt;/p&gt;&lt;ul class=&quot;marker:text-quiet list-disc pl-8&quot;&gt;&lt;li class=&quot;py-0 my-0 prose-p:pt-0 prose-p:mb-2 prose-p:my-0 [&amp;amp;&amp;gt;p]:pt-0 [&amp;amp;&amp;gt;p]:mb-2 [&amp;amp;&amp;gt;p]:my-0&quot;&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Unit tests&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;py-0 my-0 prose-p:pt-0 prose-p:mb-2 prose-p:my-0 [&amp;amp;&amp;gt;p]:pt-0 [&amp;amp;&amp;gt;p]:mb-2 [&amp;amp;&amp;gt;p]:my-0&quot;&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Integratietests&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;py-0 my-0 prose-p:pt-0 prose-p:mb-2 prose-p:my-0 [&amp;amp;&amp;gt;p]:pt-0 [&amp;amp;&amp;gt;p]:mb-2 [&amp;amp;&amp;gt;p]:my-0&quot;&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Code quality checks&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;py-0 my-0 prose-p:pt-0 prose-p:mb-2 prose-p:my-0 [&amp;amp;&amp;gt;p]:pt-0 [&amp;amp;&amp;gt;p]:mb-2 [&amp;amp;&amp;gt;p]:my-0&quot;&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;CVE-checks op gebruikte packages&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;py-0 my-0 prose-p:pt-0 prose-p:mb-2 prose-p:my-0 [&amp;amp;&amp;gt;p]:pt-0 [&amp;amp;&amp;gt;p]:mb-2 [&amp;amp;&amp;gt;p]:my-0&quot;&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;End-to-end (E2E) tests&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Na het succesvol doorlopen van de automatische testen wordt een eerste versie online gezet. Bij elke commit daarna wordt dezelfde pipeline opnieuw uitgevoerd (zolang de PR openstaat).&lt;/p&gt;&lt;hr class=&quot;bg-quiet h-px border-0&quot;&gt;&lt;h1 class=&quot;font-editorial font-bold first:mt-xs mb-2 mt-4 [.has-inline-images_&amp;amp;]:clear-end text-lg leading-[1.5em] lg:text-xl&quot; id=&quot;build&quot;&gt;Build&lt;/h1&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Na het succesvol uitvoeren van de testen wordt een eerste versie gebouwd.&lt;/p&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Daarbij worden:&lt;/p&gt;&lt;ul class=&quot;marker:text-quiet list-disc pl-8&quot;&gt;&lt;li class=&quot;py-0 my-0 prose-p:pt-0 prose-p:mb-2 prose-p:my-0 [&amp;amp;&amp;gt;p]:pt-0 [&amp;amp;&amp;gt;p]:mb-2 [&amp;amp;&amp;gt;p]:my-0&quot;&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;De frontend (Node.js) gebouwd&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;py-0 my-0 prose-p:pt-0 prose-p:mb-2 prose-p:my-0 [&amp;amp;&amp;gt;p]:pt-0 [&amp;amp;&amp;gt;p]:mb-2 [&amp;amp;&amp;gt;p]:my-0&quot;&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;De backend (Python) gebouwd&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Deze builds worden als dev-versies naar de container registry gepusht.&lt;/p&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Een Helm chart deployt deze versies vervolgens naar een dev-omgeving in een Kubernetes-cluster, waar QA de nieuwe code kan valideren en testen.&lt;/p&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Wanneer deze versie is goedgekeurd, kan de branch gemerged worden naar een release branch, waarin alle nieuwe features worden verzameld.&lt;/p&gt;&lt;p class=&quot;my-2 [&amp;amp;+p]:mt-4 [&amp;amp;_strong:has(+br)]:inline-block [&amp;amp;_strong:has(+br)]:pb-2&quot;&gt;Uiteindelijk wordt er een nieuwe release gepland en een PR opgezet van de release/feature branch naar main. Dit volgt hetzelfde principe: eerst de automatische testen, daarna een deploy naar een dev-omgeving. Zodra alles is gevalideerd, wordt de code gemerged naar main.&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="780" width="490" x="-210" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-26" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IEfH0bAItRibZ0OJq1sP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-27" connectable="0" parent="IEfH0bAItRibZ0OJq1sP-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="Code commits&lt;div&gt;to branch&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="3" as="geometry">
+            <mxPoint x="6" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=left;" value="Developer&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="390" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-21" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" target="IEfH0bAItRibZ0OJq1sP-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="632.5" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-24" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" target="IEfH0bAItRibZ0OJq1sP-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="632.5" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-25" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" target="IEfH0bAItRibZ0OJq1sP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="632.5" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-53" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.367;exitY=0.992;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="IEfH0bAItRibZ0OJq1sP-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-56" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IEfH0bAItRibZ0OJq1sP-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="470" />
+            </Array>
+            <mxPoint x="685.3333333333335" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-9" parent="1" style="whiteSpace=wrap;html=1;rounded=0;align=left;" value="Pull request opened:&lt;div&gt;&amp;nbsp;- Automated tests in parallel&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Per commit&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="580" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-37" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=none;fillColor=#a20025;strokeColor=#6F0000;" target="IEfH0bAItRibZ0OJq1sP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="670" />
+              <mxPoint x="940" y="670" />
+            </Array>
+            <mxPoint x="940" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-63" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;jumpStyle=arc;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-13" parent="1" style="whiteSpace=wrap;html=1;rounded=0;align=left;" value="Code quality" vertex="1">
+          <mxGeometry height="30" width="110" x="680" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-38" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;jumpStyle=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;" target="IEfH0bAItRibZ0OJq1sP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="720" />
+              <mxPoint x="940" y="720" />
+            </Array>
+            <mxPoint x="1000" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-64" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;jumpStyle=arc;" target="IEfH0bAItRibZ0OJq1sP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-22" parent="1" style="whiteSpace=wrap;html=1;rounded=0;align=left;" value="Unit Tests" vertex="1">
+          <mxGeometry height="30" width="110" x="680" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-39" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;exitX=0.47;exitY=0.035;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="732" y="770" />
+              <mxPoint x="940" y="770" />
+            </Array>
+            <mxPoint x="790" y="775.0067114093958" as="sourcePoint" />
+            <mxPoint x="940" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-65" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;jumpStyle=arc;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-23" parent="1" style="whiteSpace=wrap;html=1;rounded=0;align=left;" value="Integration Tests" vertex="1">
+          <mxGeometry height="30" width="110" x="680" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-47" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IEfH0bAItRibZ0OJq1sP-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Everything OK?" vertex="1">
+          <mxGeometry height="60" width="120" x="790" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-40" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IEfH0bAItRibZ0OJq1sP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-35" parent="1" style="whiteSpace=wrap;html=1;" value="Failed tests?&lt;div&gt;Inform user&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="880" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-69" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IEfH0bAItRibZ0OJq1sP-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-73" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=1.016;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="IEfH0bAItRibZ0OJq1sP-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="636" y="960" />
+              <mxPoint x="610" y="959" />
+            </Array>
+            <mxPoint x="635.05" y="999.9999999999997" as="sourcePoint" />
+            <mxPoint x="520.03" y="668.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-74" connectable="0" parent="IEfH0bAItRibZ0OJq1sP-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Push build&amp;nbsp;&lt;div&gt;back to PR&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5493" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-42" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Building stage" vertex="1">
+          <mxGeometry height="60" width="120" x="790" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-67" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IEfH0bAItRibZ0OJq1sP-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="910" />
+              <mxPoint x="1160" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-107" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;jumpStyle=arc;" target="IEfH0bAItRibZ0OJq1sP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="895" />
+              <mxPoint x="1130" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Building Frontend (NodeJs)" vertex="1">
+          <mxGeometry height="60" width="120" x="980" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-68" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IEfH0bAItRibZ0OJq1sP-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="1010" />
+              <mxPoint x="1160" y="970" />
+            </Array>
+            <mxPoint x="1300" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-72" connectable="0" parent="IEfH0bAItRibZ0OJq1sP-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Wait for&amp;nbsp;&lt;div&gt;both builds&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4062" y="1" as="geometry">
+            <mxPoint x="7" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-108" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.005;exitY=0.176;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;jumpStyle=arc;exitPerimeter=0;" target="IEfH0bAItRibZ0OJq1sP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="991" />
+              <mxPoint x="1130" y="570" />
+            </Array>
+            <mxPoint x="1000" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-109" connectable="0" parent="IEfH0bAItRibZ0OJq1sP-108" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Failing builds" vertex="1">
+          <mxGeometry relative="1" x="-0.0872" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Building Backend&lt;div&gt;(Python)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="980" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-55" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;" target="IEfH0bAItRibZ0OJq1sP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="620" />
+              <mxPoint x="940" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-62" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;fillColor=#60a917;strokeColor=#2D7600;" target="IEfH0bAItRibZ0OJq1sP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-52" parent="1" style="whiteSpace=wrap;html=1;rounded=0;align=left;" value="CVE check" vertex="1">
+          <mxGeometry height="30" width="110" x="680" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-60" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;" target="IEfH0bAItRibZ0OJq1sP-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manual QA Check" vertex="1">
+          <mxGeometry height="60" width="120" x="880" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-87" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IEfH0bAItRibZ0OJq1sP-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-88" connectable="0" parent="IEfH0bAItRibZ0OJq1sP-87" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ready for release" vertex="1">
+          <mxGeometry relative="1" x="0.0982" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-66" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Building Production&lt;div&gt;(DockerFile)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="1440" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-70" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IEfH0bAItRibZ0OJq1sP-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-97" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IEfH0bAItRibZ0OJq1sP-96" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Deploy to staging enviroment&lt;div&gt;(Helm Chart)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1430" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-110" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#a20025;strokeColor=#6F0000;" target="IEfH0bAItRibZ0OJq1sP-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1629.9999999999995" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Deploy to production enviroment" vertex="1">
+          <mxGeometry height="60" width="120" x="1430" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-98" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IEfH0bAItRibZ0OJq1sP-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-99" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;" target="IEfH0bAItRibZ0OJq1sP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="680" />
+              <mxPoint x="1200" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-96" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Testing phase of staging enviroment" vertex="1">
+          <mxGeometry height="60" width="120" x="1430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-102" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#a20025;strokeColor=#6F0000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-103" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IEfH0bAItRibZ0OJq1sP-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Manual QA Check" vertex="1">
+          <mxGeometry height="60" width="120" x="1430" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-105" parent="1" style="whiteSpace=wrap;html=1;" value="Push images&amp;nbsp;&lt;div&gt;to registry&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1250" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-113" edge="1" parent="1" source="IEfH0bAItRibZ0OJq1sP-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="IEfH0bAItRibZ0OJq1sP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="470" />
+              <mxPoint x="1200" y="570" />
+            </Array>
+            <mxPoint x="1239.999999999999" y="470" as="sourcePoint" />
+            <mxPoint x="990" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEfH0bAItRibZ0OJq1sP-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Failure?&amp;nbsp;&lt;div&gt;Rollback previous version&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1249.9999999999995" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
